@@ -13,7 +13,9 @@ def camera_init():
     cam.CenterY.SetValue(True)
     cam.StartGrabbing()
     return
+def camera_capture():
 
+    return
 for i in range(num_img_to_save):
     with cam.RetrieveResult(20000) as result:
 
